@@ -3,12 +3,12 @@
     padding: 0;
     text-align: center;
 }
-.hero, .about{
+.hero, .about, .contact{
     padding: 10%;
     height: 100%;
     background-color: #2C3639;
 }
-.top_container{
+.top_container, .contact_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,6 +88,35 @@
     color: #A27B5C;
     font-size: 1.5rem;
 }
+.message{
+    font-size: 1.5rem;
+    width: 40vw;
+    height: 10vh;
+    border-radius: 20px;
+    color: #DCD7C9;
+    background-color: #2C3639;
+    box-shadow: 0 0 5px rgba(220, 215, 201, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.long{
+    height: 30vh;
+}
+.contact_text{
+    font-size: 1.5rem;
+    text-align: start;
+}
+.send{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 20px;
+    color: #A27B5C;
+    background-color: #2C3639;
+    box-shadow: 0 0 10px rgba(220, 215, 201, 0.5);
+}
 @media(max-width: 900px){
     .hero, .about{
         padding: 5%;
@@ -101,5 +130,11 @@
      .more{
         width: 40vw;
         height: 10vh;
+    }
+    .message{
+        width: 70vw;
+    }
+    .send{
+        width: 50vw;
     }
 }

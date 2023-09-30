@@ -4,7 +4,7 @@
     text-align: center;
 }
 .hero, .about, .contact{
-    padding: 10%;
+    padding: 10% 10% 5% 10%;
     height: 100%;
     background-color: #2C3639;
 }
@@ -116,6 +116,13 @@
     color: #A27B5C;
     background-color: #2C3639;
     box-shadow: 0 0 10px rgba(220, 215, 201, 0.5);
+}
+footer{
+    height: 10vh;
+    background-color: #A27B5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media(max-width: 900px){
     .hero, .about{
